@@ -1,2 +1,2 @@
 # myproj
-to excercise git
+to excercise git with Github....Nov 18 2015
