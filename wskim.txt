@@ -1,0 +1,1 @@
+This is testing for merge-branch files for 2 git users
