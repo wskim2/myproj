@@ -6,3 +6,4 @@ try to know fetch-merge and pull
 check 3 by remote
 check 4 by remote
 check 5 by remote
+check 6 by wskim
