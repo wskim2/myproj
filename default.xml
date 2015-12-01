@@ -4,5 +4,5 @@
            fetch="git@github.com:wskim2/"
            review="" /> : 
   <default revision="refs/heads/master"  remote="myproj.git" />
-  <project path="./myproj" name="myproj.git" />
+  <project path="./myproj" remote= "myproj.git" name="myproj.git" />
 </manifest>
