@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="myproj.git" 
+           fetch="git@github.com:wskim2/"
+           review="" /> : 
+  <default revision="refs/heads/master"  remote="myproj" />
+  <project path="/home/wskim/projects/" remote="myproj" name="myproj" />
+</manifest>
+
