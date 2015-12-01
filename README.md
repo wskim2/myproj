@@ -10,3 +10,5 @@ check 5 by remote
 check 6 by wskim
 check 7 by wskim
 check 7 by remote
+
+check 8 by hotfix
