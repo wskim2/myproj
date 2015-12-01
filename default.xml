@@ -3,7 +3,7 @@
   <remote  name="myproj.git" 
            fetch="git@github.com:wskim2/"
            review="" /> : 
-  <default revision="refs/heads/master"  remote="myproj" />
-  <project path="/home/wskim/projects/" remote="myproj" name="myproj" />
+  <default revision="refs/heads/master"  remote="myproj.git" />
+  <project path="/home/wskim/projects/" remote="myproj.git" name="myproj" />
 </manifest>
 
