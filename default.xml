@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="wskim2" 
+  <remote  name="wskim2/myproj" 
            fetch="git@github.com"
            review="" /> : 
   <default revision="refs/heads/master"  remote="myproj" />
