@@ -18,7 +18,8 @@ doc/*.txt
 doc/**/*.pdf
 
 # ignore code block compiler
-*.vcxproj*
+*.vcxproj
+*.vcxproj.*
 *.sdf
 *.sln
 *.suo
