@@ -3,5 +3,5 @@
   <remote  name="github" 
            fetch="git@github.com" /> : 
   <default revision="refs/heads/master"  remote="github" sync-c="true" sync-j="4" />
-  <project path="endian_test" name="myproj/endian test" />
+  <project path="endian test" name="myproj/endian test" />
 </manifest>
