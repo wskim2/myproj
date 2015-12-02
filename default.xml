@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="myproj" 
-           fetch="git@github.com:wskim2"
-           review="" /> : 
-  <default revision="refs/heads/master"  remote="myproj" />
-  <project path="aa" remote= "myproj" name="myproj" />
+  <remote  name="github" 
+           fetch="git@github.com:wskim2" /> : 
+  <default revision="refs/heads/master"  remote="github" sync-c="true" sync-j="4" />
+  <project path="endian_test" name="endian test" />
 </manifest>
