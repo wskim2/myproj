@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote  name="wskim2/myproj" 
-           fetch="ssh://git@some.server.com"
+           fetch="ssh://git@github.com"
            review="" /> : 
   <default revision="refs/heads/master"  remote="myproj" />
   <project path="myproj" remote= "myproj" name="myproj" />
