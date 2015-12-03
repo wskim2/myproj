@@ -1,3 +1,7 @@
+/*
+	endian test to check endian of processors
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 
