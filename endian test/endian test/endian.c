@@ -39,7 +39,7 @@ b3 = (num & 0xff000000) >> 24u;
 res = b0 | b1 | b2 | b3;
 printf("converted endian from 0x%x to 0x%x\n", num, res);
 
-//2nd swap number
+/* 2nd swap number */
 swapped =((num>>24)&0xff) | // move byte 3 to byte 0
          ((num<<8)&0xff0000) | // move byte 1 to byte 2
          ((num>>8)&0xff00) | // move byte 2 to byte 1
@@ -50,8 +50,9 @@ printf("converted endian from 0x%x to 0x%x\n", num, res);
 	
 void main()
 {
-	 endian_test2();
+	 
 	 endian_conversion(1, 0x12345678);
+	 endian_test2();
 
 	 getch();
 }
