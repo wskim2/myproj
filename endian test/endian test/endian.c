@@ -30,6 +30,18 @@ void endian_test2()
 
 }
 
+void endian_test3()
+{
+	unsigned int num=1;
+
+	if(*(char*)&num == 1)
+		printf("\nLittel Endian\n");
+	else
+		printf("\nBig Endian\n");
+
+}
+
+
 int endian_conversion(unsigned char endian, unsigned int num)
 {
 unsigned int b0,b1,b2,b3;
@@ -51,11 +63,12 @@ swapped =((num>>24)&0xff) | // move byte 3 to byte 0
 
 printf("converted endian from 0x%x to 0x%x\n", num, res);
 }
-	
+
+
 void main()
 {
 	 
-	 endian_conversion(1, 0x12345678);
+	 endian_conversion(1, 0x123456);
 	 endian_test2();
 
 	 getch();
