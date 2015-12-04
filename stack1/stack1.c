@@ -118,7 +118,7 @@ void main() {
    int data, item, choice;
    char ans, ch;
  
-   //clrscr();
+   clrscr();
  
    top = NULL;
  
