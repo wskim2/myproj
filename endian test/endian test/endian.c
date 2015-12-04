@@ -17,8 +17,6 @@ int i;
 
 	for(i=0;i<sizeof(unsigned int);i++)
 		printf("%x: %.2x\n", &u.bytes[i], u.bytes[i]);
-
-	printf("Check byte sequence...\n");
 }
 
 void endian_test2()
