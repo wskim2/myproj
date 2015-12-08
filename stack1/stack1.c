@@ -15,7 +15,6 @@ typedef struct Node{
 
 Node *top=NULL;
 
-
 Node *top()
 {
 	return top;
@@ -84,6 +83,7 @@ void main()
 	push(4);print();
 	push(6);print();
 	push(8);print();
+	push(10);print();
 	pop();print();
 	pop();print();
 	pop();print();
