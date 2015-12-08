@@ -61,6 +61,7 @@ void Insert_pos(int x, int pos)
 
 }
 
+/* delete specific node */
 void Delete(int n)
 {
 	int i;
