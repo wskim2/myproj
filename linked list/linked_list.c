@@ -33,7 +33,7 @@ void Insert(Node** head, int x)
 	*head = temp;
 }
 
-//insert new node to pos from head.
+/* insert new node to pos from head.*/
 void Insert_pos(int x, int pos)
 {
 	Node* temp2;
