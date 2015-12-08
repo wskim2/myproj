@@ -1,5 +1,5 @@
 /* 
-	excercise linked list 
+       to excercise linked list 
 */	
 #include <stdlib.h>
 #include <stdio.h>
