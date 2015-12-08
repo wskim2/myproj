@@ -87,7 +87,6 @@ void main()
 	pop();print();
 	pop();print();
 	pop();print();
-	//pop();print();
 
 	getch();
 }
