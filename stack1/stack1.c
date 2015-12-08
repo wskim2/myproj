@@ -1,5 +1,6 @@
 /*
   to run stack operation
+  push/pop
 */
 #include <stdlib.h>
 #include <stdio.h>
