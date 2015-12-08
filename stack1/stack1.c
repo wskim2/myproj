@@ -1,4 +1,6 @@
-/* */
+/*
+  to run stack operation
+*/
 #include <stdlib.h>
 #include <stdio.h>
 #include <malloc.h>
