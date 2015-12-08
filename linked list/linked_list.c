@@ -1,5 +1,6 @@
 /* 
        to excercise linked list 
+       insert/delete/reverse order
 */	
 #include <stdlib.h>
 #include <stdio.h>
