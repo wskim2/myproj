@@ -1,5 +1,5 @@
 /*
-	find a prime number
+   to find a prime number
 */
 #include <stdio.h>
 #include <stdlib.h>
