@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1449775264 source:c:\temp\repositories\wskim\myproj\findprime\findprime\findprime.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+

@@ -16,6 +16,20 @@ doc/*.txt
 
 # ignore all .pdf files in the doc/ directory
 doc/**/*.pdf
+*.cbp
+*.pdf
+*.layout
+*.depend
+*.IAB
+*.IAD
+*.IMB
+*.IMD
+*.PFI
+*.PO
+*.PR
+*.PRI
+*.PS
+
 
 # ignore code block compiler
 *.vcxproj
