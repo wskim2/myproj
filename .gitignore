@@ -13,21 +13,6 @@ build/
 
 # ignore doc/notes.txt, but not doc/server/arch.txt
 doc/*.txt
-*.pdf
-*.zip
-*.IAB
-.IAD
-*.IMB
-*.IMD
-*.PFI
-*.PO
-*.PR
-*.PRI
-*.PS
-
-*.layout
-*.depend
-*.cbp
 
 
 # ignore all .pdf files in the doc/ directory
