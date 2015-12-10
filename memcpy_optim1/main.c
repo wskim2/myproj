@@ -55,10 +55,8 @@ void memcpy_3(void * plDst, void* plSrc, unsigned long nCopySize)
 
 
 
-     switch(nCopySize& 7)
-
+     switch(nCopySize & 7)
      {
-
      case0:
          do {
 
@@ -122,7 +120,7 @@ int main()
 
 
     //1st one
-
+    printf("execution time are: \n");
     start = clock();
 
     for( i=0; i<count; i++ )
@@ -135,7 +133,7 @@ int main()
 
     end = clock() - start;
 
-    printf( "memcpy3: %i\n", end );
+    printf( "memcpy_1: %i\n", end );
 
 
     //2nd one
@@ -151,7 +149,7 @@ int main()
 
     end = clock() - start;
 
-    printf( "memcpy2: %i\n", end );
+    printf( "memcpy_2: %i\n", end );
 
 
  //2nd one
@@ -167,7 +165,7 @@ int main()
 
     end = clock() - start;
 
-    printf( "memcpy2: %i\n", end );
+    printf( "memcpy_3: %i\n", end );
 
 
 /*
