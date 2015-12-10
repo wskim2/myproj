@@ -17,10 +17,10 @@ doc/*.txt
 
 # ignore all .pdf files in the doc/ directory
 doc/**/*.pdf
-*.cbp
 *.pdf
-*.layout
-*.depend
+*.zip
+
+#ignore source insight files
 *.IAB
 *.IAD
 *.IMB
@@ -39,6 +39,9 @@ doc/**/*.pdf
 *.sln
 *.suo
 
+*.cbp
+*.layout
+*.depend
 
 
 ################################################################
