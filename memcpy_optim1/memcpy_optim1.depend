@@ -1,6 +1,0 @@
-# depslib dependency file v1.0
-1449797730 source:c:\temp\repositories\wskim\myproj\memcpy_optim1\main.c
-	<stdio.h>
-	<stdlib.h>
-	<time.h>
-
