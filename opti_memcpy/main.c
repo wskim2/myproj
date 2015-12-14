@@ -9,45 +9,45 @@
 
 
 
-MMX´ÂFPU ·¹Áö½ºÅÍ¸¦ÀÌ¿ëÇÏ´Â°ÍÀÎµ¥FPU¸¦¾È¾´´Ù´Ï¹«½¼¶æÀÎÁö
+MMX\B4\C2FPU \B7\B9\C1\F6\BD\BA\C5Í¸\A6\C0Ì¿\EB\C7Ï´Â°\CD\C0Îµ\A5FPU\B8\A6\BEÈ¾\B4\B4Ù´Ï¹\AB\BD\BC\B6\E6\C0\CE\C1\F6
 
-¸ð¸£°Ú½À´Ï´Ù. ¸Å´º¾óÀ»Á»´õÀÚ¼¼È÷ÀÐ¾îº¸½Ã±æ¹Ù¶ø´Ï´Ù. ±×¸®°íemms
+\B8ð¸£°Ú½\C0\B4Ï´\D9. \B8Å´\BA\BE\F3\C0\BB\C1\BB\B4\F5\C0Ú¼\BC\C8\F7\C0Ð¾îº¸\BDÃ±\E6\B9Ù¶\F8\B4Ï´\D9. \B1×¸\AE\B0\EDemms
 
-¸í·ÉÀÌ100Å¬·°ÀÌ¼Ò¿äµÈ´Ù´Â±Ù°Å´Â¾îµð¿¡ÀÖ´Â°ÍÀÎ°¡¿ä? ¹°·Ð¼öÅ³·Î
+\B8\ED\B7\C9\C0\CC100Å¬\B7\B0\C0Ì¼Ò¿\E4\B5È´Ù´Â±Ù°Å´Â¾\EE\B5\F0\BF\A1\C0Ö´Â°\CD\C0Î°\A1\BF\E4? \B9\B0\B7Ð¼\F6Å³\B7\CE
 
-¹ÙÀÌÆ®Á¤µµÀÇÀÛÀºµ¥ÀÌÅÍ¸¦º¹»çÇÏ´Âµ¥MMX³ªSSE¸¦¾²´Â°ÍÀº¾î¸®¼®Àº
+\B9\D9\C0\CCÆ®\C1\A4\B5\B5\C0\C7\C0\DB\C0\BA\B5\A5\C0\CC\C5Í¸\A6\BA\B9\BB\E7\C7Ï´Âµ\A5MMX\B3\AASSE\B8\A6\BE\B2\B4Â°\CD\C0\BA\BEî¸®\BC\AE\C0\BA
 
-ÀÏÀÓÀºÀÌ¹ÌÁõ¸íµÇ¾îÀÖ½À´Ï´Ù. :)
-
-
-
-ÀÏ¹Ýi386 ¸í·ÉÀ¸·Î1024¹ÙÀÌÆ®¸¦º¹»çÇÏ´Âµ¥15000Å¬·°ÀÌ¼Ò¿äµÇ°í,
-
-MMX ¸í·ÉÀ¸·Î°°Àº¹ÙÀÌÆ®¸¦º¹»çÇÏ´Âµ¥25000Å¬·°ÀÌ¼Ò¿äµÇ¾ú´Ù°í
-
-ÇÏ¸é¾î´ÀÂÊÀÌºü¸¥ÄÚµåÀÎÁö´ÂÀÚ¸íÇÏÁö¾Ê³ª¿ä? ÀÌ°ÔÀÇ¹Ì¾ø´Â
-
-Åë°è¶ó¸éÃÖÀûÈ­ÀÚÃ¼°¡¹«ÀÇ¹ÌÇÕ´Ï´Ù.
+\C0\CF\C0\D3\C0\BA\C0Ì¹\CC\C1\F5\B8\ED\B5Ç¾\EE\C0Ö½\C0\B4Ï´\D9. :)
 
 
 
-°¡·É8¹ÙÀÌÆ®¸¦ÇÑ²¨¹ø¿¡º¹»çÇÏ´Âmovq°°Àº
+\C0Ï¹\DDi386 \B8\ED\B7\C9\C0\B8\B7\CE1024\B9\D9\C0\CCÆ®\B8\A6\BA\B9\BB\E7\C7Ï´Âµ\A515000Å¬\B7\B0\C0Ì¼Ò¿\E4\B5Ç°\ED,
 
-¸í·ÉÀº±×ÀÚÃ¼·Îº¸¸éÀÏ¹ÝÀûÀÎ4¹ÙÀÌÆ®º¹»ç¸í·ÉÀÎmov¸¦2¹ø¾²´Â
+MMX \B8\ED\B7\C9\C0\B8\B7Î°\B0\C0\BA\B9\D9\C0\CCÆ®\B8\A6\BA\B9\BB\E7\C7Ï´Âµ\A525000Å¬\B7\B0\C0Ì¼Ò¿\E4\B5Ç¾\FA\B4Ù°\ED
 
-°Íº¸´ÙÀÌ·ÐÀûÀ¸·Î´ÂÃÖ°í2¹è, ¶Ç´ÂÀû¾îµµ¸î½Ê%´Âºü¸¦°Í°°Àº¿¹°¨ÀÌ
+\C7Ï¸\E9\BE\EE\B4\C0\C2\CA\C0Ìº\FC\B8\A5\C4Úµ\E5\C0\CE\C1\F6\B4\C2\C0Ú¸\ED\C7\CF\C1\F6\BEÊ³\AA\BF\E4? \C0Ì°\D4\C0Ç¹Ì¾\F8\B4\C2
 
-µéÁö¸¸, ½ÇÁ¦·Î´Â°Å²Ù·Î¼ö½Ê¹è³ª´À·È½À´Ï´Ù(¹°·Ð¶ÇÆ¯¼öÇÑ°æ¿ì¿¡¼­´Â
+\C5\EB\B0\E8\B6\F3\B8\E9\C3\D6\C0\FBÈ­\C0\DAÃ¼\B0\A1\B9\AB\C0Ç¹\CC\C7Õ´Ï´\D9.
 
-¸î¹èºü¸£´Ù°íÇßÁö¸¸±×·±°æ¿ì´Â¾ÆÁ÷¹ß°ßÇÒ¼ö¾ø¾ú½À´Ï´Ù). ÀÌÇö»óÀ»
 
-°¡Á®¿À´Â¿©·¯°¡Áö¿øÀÎÁßÁ¦°¡ÁüÀÛÇÒ¼öÀÖ¾ú´ø°ÍÀºMMX ¸í·É¾îÀÇ±ä
 
-±æÀÌ, ÆÄÀÌÇÁ¶óÀÎ¿¡¼­ÀÇ¹®Á¦, Ä³½¬¶óÀÎ, ¼Â¾÷½Ã°£°°Àº°Íµé»ÓÀÔ´Ï´Ù.
+\B0\A1\B7\C98\B9\D9\C0\CCÆ®\B8\A6\C7Ñ²\A8\B9\F8\BF\A1\BA\B9\BB\E7\C7Ï´\C2movq\B0\B0\C0\BA
 
-±×·¯³ªÇÁ·Î¼¼¼­³»ºÎÀÇµ¿ÀÛÀºÁ¦Á¶»çÀÇ±â¹Ð¿¡ÇØ´çÇÏ´Â¹®Á¦ÀÌ¹Ç·Î,
+\B8\ED\B7\C9\C0\BA\B1\D7\C0\DAÃ¼\B7Îº\B8\B8\E9\C0Ï¹\DD\C0\FB\C0\CE4\B9\D9\C0\CCÆ®\BA\B9\BB\E7\B8\ED\B7\C9\C0\CEmov\B8\A62\B9\F8\BE\B2\B4\C2
 
-¿ÜºÎÀûÀ¸·Î´ÂºÐ¼®ÇÏ±â°¡¸Å¿ì¾î·Á¿ï°ÍÀÔ´Ï´Ù.
+\B0Íº\B8\B4\D9\C0Ì·\D0\C0\FB\C0\B8\B7Î´\C2\C3Ö°\ED2\B9\E8, \B6Ç´\C2\C0\FB\BEîµµ\B8\EE\BD\CA%\B4Âº\FC\B8\A6\B0Í°\B0\C0\BA\BF\B9\B0\A8\C0\CC
+
+\B5\E9\C1\F6\B8\B8, \BD\C7\C1\A6\B7Î´Â°Å²Ù·Î¼\F6\BDÊ¹è³ª\B4\C0\B7È½\C0\B4Ï´\D9(\B9\B0\B7Ð¶\C7Æ¯\BC\F6\C7Ñ°\E6\BFì¿¡\BC\AD\B4\C2
+
+\B8\EE\B9\E8\BA\FC\B8\A3\B4Ù°\ED\C7\DF\C1\F6\B8\B8\B1×·\B1\B0\E6\BF\EC\B4Â¾\C6\C1\F7\B9ß°\DF\C7Ò¼\F6\BE\F8\BE\FA\BD\C0\B4Ï´\D9). \C0\CC\C7\F6\BB\F3\C0\BB
+
+\B0\A1\C1\AE\BF\C0\B4Â¿\A9\B7\AF\B0\A1\C1\F6\BF\F8\C0\CE\C1\DF\C1\A6\B0\A1\C1\FC\C0\DB\C7Ò¼\F6\C0Ö¾\FA\B4\F8\B0\CD\C0\BAMMX \B8\ED\B7É¾\EE\C0Ç±\E4
+
+\B1\E6\C0\CC, \C6\C4\C0\CC\C7\C1\B6\F3\C0Î¿\A1\BC\AD\C0Ç¹\AE\C1\A6, Ä³\BD\AC\B6\F3\C0\CE, \BCÂ¾\F7\BDÃ°\A3\B0\B0\C0\BA\B0Íµ\E9\BB\D3\C0Ô´Ï´\D9.
+
+\B1×·\AF\B3\AA\C7\C1\B7Î¼\BC\BC\AD\B3\BB\BA\CE\C0Çµ\BF\C0\DB\C0\BA\C1\A6\C1\B6\BB\E7\C0Ç±\E2\B9Ð¿\A1\C7Ø´\E7\C7Ï´Â¹\AE\C1\A6\C0Ì¹Ç·\CE,
+
+\BFÜº\CE\C0\FB\C0\B8\B7Î´ÂºÐ¼\AE\C7Ï±â°¡\B8Å¿\EC\BE\EE\B7\C1\BF\EF\B0\CD\C0Ô´Ï´\D9.
 
 
 
@@ -154,29 +154,29 @@ void memcpy3( void* dest, void* src, int num )
 
     (
 
-        "mov edi, dest;"    // ¸ñÀûÁöÀúÀå
+        "mov edi, dest;"    // \B8\F1\C0\FB\C1\F6\C0\FA\C0\E5
 
-        "mov esi, src;"        // ¼Ò½ºÀúÀå
+        "mov esi, src;"        // \BCÒ½\BA\C0\FA\C0\E5
 
-        "mov ecx, num;"      // ¹Ýº¹È¸¼ö
+        "mov ecx, num;"      // \B9Ýº\B9È¸\BC\F6
 
-        "mov edx, ecx;"        // ¹Ýº¹È½¼öº¹»ç(½ºÅØ->½ºÅØÀÌºü¸£´Ù.)
+        "mov edx, ecx;"        // \B9Ýº\B9È½\BC\F6\BA\B9\BB\E7(\BD\BA\C5\D8->\BD\BA\C5\D8\C0Ìº\FC\B8\A3\B4\D9.)
 
-        "shr ecx, 1;"        // dword º¹»çÇÏ¹Ç·Î/4 ÇØ¾ßÇÏ¹Ç·Î½¬ÇÁÆ®ÇÑ´Ù.
+        "shr ecx, 1;"        // dword \BA\B9\BB\E7\C7Ï¹Ç·\CE/4 \C7Ø¾\DF\C7Ï¹Ç·Î½\AC\C7\C1Æ®\C7Ñ´\D9.
 
         "shr ecx, 1;"        // ...
 
-        "cld;"                // º¹»ç¼ø¼­¼³Á¤
+        "cld;"                // \BA\B9\BB\E7\BC\F8\BC\AD\BC\B3\C1\A4
 
-        "rep movsd;"        // DWORD ´ÜÀ§º¹»ç
+        "rep movsd;"        // DWORD \B4\DC\C0\A7\BA\B9\BB\E7
 
 
 
-        "mov ecx, edx;"        // ÀúÀåÇØµÐÅ©±âÀ§Ä¡º¹±¸
+        "mov ecx, edx;"        // \C0\FA\C0\E5\C7Øµ\D0Å©\B1\E2\C0\A7Ä¡\BA\B9\B1\B8
 
-        "and ecx, 0x03;"    // Å©±â% 4 ÇÑ°ª¾ò±â(ÇÏÀ§ºñÆ®)
+        "and ecx, 0x03;"    // Å©\B1\E2% 4 \C7Ñ°\AA\BE\F2\B1\E2(\C7\CF\C0\A7\BA\F1Æ®)
 
-        "rep movsb;"        // ¹ÙÀÌÆ®´ÜÀ§º¹»ç
+        "rep movsb;"        // \B9\D9\C0\CCÆ®\B4\DC\C0\A7\BA\B9\BB\E7
 
     );
 */
@@ -197,27 +197,27 @@ void memcpy2( void* dest, void* src, int num )
 
     (
 
-        "mov edi, dest;"    // ¸ñÀûÁöÀúÀå
+        "mov edi, dest;"    // \B8\F1\C0\FB\C1\F6\C0\FA\C0\E5
 
-        "mov esi, src;"        // ¼Ò½ºÀúÀå
+        "mov esi, src;"        // \BCÒ½\BA\C0\FA\C0\E5
 
-        "mov ecx, num;"        // ¹Ýº¹È¸¼ö
+        "mov ecx, num;"        // \B9Ýº\B9È¸\BC\F6
 
-        "mov edx, ecx;"        // ¹Ýº¹È½¼öº¹»ç(½ºÅØ->½ºÅØÀÌºü¸£´Ù.)
+        "mov edx, ecx;"        // \B9Ýº\B9È½\BC\F6\BA\B9\BB\E7(\BD\BA\C5\D8->\BD\BA\C5\D8\C0Ìº\FC\B8\A3\B4\D9.)
 
-        "shr ecx, 2;"       // dword º¹»çÇÏ¹Ç·Î/4 ÇØ¾ßÇÏ¹Ç·Î½¬ÇÁÆ®ÇÑ´Ù.
+        "shr ecx, 2;"       // dword \BA\B9\BB\E7\C7Ï¹Ç·\CE/4 \C7Ø¾\DF\C7Ï¹Ç·Î½\AC\C7\C1Æ®\C7Ñ´\D9.
 
-        "cld;"                // º¹»ç¼ø¼­¼³Á¤
+        "cld;"                // \BA\B9\BB\E7\BC\F8\BC\AD\BC\B3\C1\A4
 
-        "rep movsd;"        // DWORD ´ÜÀ§º¹»ç
+        "rep movsd;"        // DWORD \B4\DC\C0\A7\BA\B9\BB\E7
 
 
 
-        "mov ecx, edx;"        // ÀúÀåÇØµÐÅ©±âÀ§Ä¡º¹±¸
+        "mov ecx, edx;"        // \C0\FA\C0\E5\C7Øµ\D0Å©\B1\E2\C0\A7Ä¡\BA\B9\B1\B8
 
-        "and ecx, 0x03;"    // Å©±â% 4 ÇÑ°ª¾ò±â(ÇÏÀ§ºñÆ®)
+        "and ecx, 0x03;"    // Å©\B1\E2% 4 \C7Ñ°\AA\BE\F2\B1\E2(\C7\CF\C0\A7\BA\F1Æ®)
 
-        "rep movsb;"        // ¹ÙÀÌÆ®´ÜÀ§º¹»ç
+        "rep movsb;"        // \B9\D9\C0\CCÆ®\B4\DC\C0\A7\BA\B9\BB\E7
 
     );
 */
@@ -320,7 +320,7 @@ int main(int argc, char* argv[], char* envp[])
 
 
 
-    // globals.h -- ±×´ÙÁöÃÖÀûÈ­µÇÁö¾ÊÀºMMX FPS ÄÚµå....
+    // globals.h -- \B1×´\D9\C1\F6\C3\D6\C0\FBÈ­\B5\C7\C1\F6\BE\CA\C0\BAMMX FPS \C4Úµ\E5....
 
     setFPUcpy();
 
@@ -340,7 +340,7 @@ int main(int argc, char* argv[], char* envp[])
 
 
 
-    setMMXcpy();
+    //setMMXcpy();
 
     start = timeGetTime();
 
