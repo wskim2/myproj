@@ -30,7 +30,7 @@ doc/**/*.pdf
 *.PR
 *.PRI
 *.PS
-
+*.WK
 
 # ignore code block compiler
 *.vcxproj
