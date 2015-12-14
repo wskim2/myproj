@@ -1,2 +1,0 @@
-0000000000000000000000000000000000000000 c608e20513861498ab99c3986ada349889d3e6d0 wskim <wskim5601@gmail.com> 1449009440 -0800	fetch --progress origin --tags +refs/heads/*:refs/remotes/origin/* +refs/heads/master:refs/remotes/origin/master: storing head
-c608e20513861498ab99c3986ada349889d3e6d0 5d1adb9592b90197f2c4d9ba583ade6dfc9fd7f7 wskim <wskim5601@gmail.com> 1449012401 -0800	fetch --progress origin --tags +refs/heads/*:refs/remotes/origin/* +refs/heads/master:refs/remotes/origin/master: fast-forward

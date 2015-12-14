@@ -1,7 +1,0 @@
-[core]
-	repositoryformatversion = 0
-	filemode = true
-[remote "myproj.git"]
-	url = git@github.com:wskim2/git@github.com:wskim2/myproj.git
-	projectname = myproj.git
-	fetch = +refs/heads/*:refs/remotes/myproj.git/*
