@@ -1,0 +1,1 @@
+asmTest.o: asmTest.s

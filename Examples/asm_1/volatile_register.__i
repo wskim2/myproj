@@ -1,0 +1,5 @@
+-c --cpu Cortex-M3 -g -O0 --apcs=interwork 
+-I C:\Keil_v460\ARM\RV31\INC 
+-I C:\Keil_v460\ARM\CMSIS\Include 
+-I C:\Keil_v460\ARM\Inc\ST\STM32F10x 
+-DSTM32F10X_CL -o "volatile_register.o" --omf_browse "volatile_register.crf" --depend "volatile_register.d" "..\volatile_register.c"

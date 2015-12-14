@@ -1,0 +1,55 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000                 AREA             MYCODE, CODE, READONLY
+    2 00000000         
+    3 00000000                 ENTRY
+    4 00000000                 EXPORT           __main
+    5 00000000         
+    6 00000000         __main
+    7 00000000 F04F 0001       MOV              r0, #1
+    8 00000004         
+    9 00000004         STOP
+   10 00000004 F04F 0102       MOV              r1, #2
+   11 00000008 4408            ADD              r0, r0,r1
+   12 0000000A E7FB            B                STOP
+   13 0000000C                 END
+Command Line: --debug --xref --cpu=Cortex-M3 --apcs=interwork --depend=asmTest.
+d -oasmTest.o -IC:\Keil_v460\ARM\RV31\INC -IC:\Keil_v460\ARM\CMSIS\Include -IC:
+\Keil_v460\ARM\Inc\ST\STM32F10x --predefine="__MICROLIB SETA 1" --list=asmTest.
+lst asmTest.s
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+MYCODE 00000000
+
+Symbol: MYCODE
+   Definitions
+      At line 1 in file asmTest.s
+   Uses
+      None
+Comment: MYCODE unused
+STOP 00000004
+
+Symbol: STOP
+   Definitions
+      At line 9 in file asmTest.s
+   Uses
+      At line 12 in file asmTest.s
+Comment: STOP used once
+__main 00000000
+
+Symbol: __main
+   Definitions
+      At line 6 in file asmTest.s
+   Uses
+      At line 4 in file asmTest.s
+Comment: __main used once
+3 symbols
+334 symbols in table

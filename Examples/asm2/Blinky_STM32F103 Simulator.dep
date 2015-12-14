@@ -1,0 +1,13 @@
+Dependencies for Project 'Blinky', Target 'STM32F103 Simulator': (DO NOT MODIFY !)
+F (startup_stm32f10x_md.s)(0x503E478E)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1" -I C:\Keil_v460\ARM\RV31\INC -I C:\Keil_v460\ARM\CMSIS\Include -I C:\Keil_v460\ARM\Inc\ST\STM32F10x --list ".\Lst\startup_stm32f10x_md.lst" --xref -o ".\Obj\startup_stm32f10x_md.o" --depend ".\Obj\startup_stm32f10x_md.d")
+F (system_stm32f10x.c)(0x503E478E)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I C:\Keil_v460\ARM\RV31\INC -I C:\Keil_v460\ARM\CMSIS\Include -I C:\Keil_v460\ARM\Inc\ST\STM32F10x -DSTM32F10X_MD -o ".\Obj\system_stm32f10x.o" --omf_browse ".\Obj\system_stm32f10x.crf" --depend ".\Obj\system_stm32f10x.d")
+I (C:\Keil_v460\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x4F5917FC)
+I (C:\Keil_v460\ARM\CMSIS\Include\core_cm3.h)(0x5006FC72)
+I (C:\Keil_v460\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB1A574)
+I (C:\Keil_v460\ARM\CMSIS\Include\core_cmInstr.h)(0x505A2F7C)
+I (C:\Keil_v460\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDB674C)
+I (C:\Keil_v460\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x4F5917FC)
+F (Retarget.c)(0x503E478E)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I C:\Keil_v460\ARM\RV31\INC -I C:\Keil_v460\ARM\CMSIS\Include -I C:\Keil_v460\ARM\Inc\ST\STM32F10x -DSTM32F10X_MD -o ".\Obj\retarget.o" --omf_browse ".\Obj\retarget.crf" --depend ".\Obj\retarget.d")
+I (C:\Keil_v460\ARM\ARMCC\bin\..\include\rt_misc.h)(0x4EB1A570)
+F (Blinky.c)(0x5E3922E4)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I C:\Keil_v460\ARM\RV31\INC -I C:\Keil_v460\ARM\CMSIS\Include -I C:\Keil_v460\ARM\Inc\ST\STM32F10x -DSTM32F10X_MD -o ".\Obj\blinky.o" --omf_browse ".\Obj\blinky.crf" --depend ".\Obj\blinky.d")
+F (Abstract.txt)(0x503E478E)()

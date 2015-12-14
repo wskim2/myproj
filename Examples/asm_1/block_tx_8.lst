@@ -1,0 +1,106 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000                 AREA             Block_transfer_8, CODE, READONL
+Y
+    2 00000000                 ENTRY
+    3 00000000                 EXPORT           __main
+    4 00000000         
+    5 00000000         __main
+    6 00000000 F04F 0506       MOV              R5, #6
+    7 00000004 4805            LDR              R0, =BLOCK1
+    8 00000006 4906            LDR              R1, =BLOCK2
+    9 00000008         
+   10 00000008 F810 2B01 
+                       NEXT    LDRB             R2, [R0], #1
+   11 0000000C F801 2B01       STRB             R2, [R1], #1
+   12 00000010 3D01            SUBS             R5, #1
+   13 00000012 D1F9            BNE              NEXT
+   14 00000014         
+   15 00000014 E7FE    B1      B                B1
+   16 00000016         
+   17 00000016 11 22 33 
+              44 55 66 BLOCK1  DCB              0X11, 0X22,0X33, 0X44,0X55, 0X6
+6
+   18 0000001C 00000000 
+              00000000         AREA             DATA1, DATA, READWRITE
+   19 00000000 00      BLOCK2  DCB              0
+   20 00000001                 END
+Command Line: --debug --xref --cpu=Cortex-M3 --apcs=interwork --depend=block_tx
+_8.d -oblock_tx_8.o -IC:\Keil_v460\ARM\RV31\INC -IC:\Keil_v460\ARM\CMSIS\Includ
+e -IC:\Keil_v460\ARM\Inc\ST\STM32F10x --predefine="__MICROLIB SETA 1" --list=bl
+ock_tx_8.lst block_tx_8.s
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+B1 00000014
+
+Symbol: B1
+   Definitions
+      At line 15 in file block_tx_8.s
+   Uses
+      At line 15 in file block_tx_8.s
+Comment: B1 used once
+BLOCK1 00000016
+
+Symbol: BLOCK1
+   Definitions
+      At line 17 in file block_tx_8.s
+   Uses
+      At line 7 in file block_tx_8.s
+Comment: BLOCK1 used once
+Block_transfer_8 00000000
+
+Symbol: Block_transfer_8
+   Definitions
+      At line 1 in file block_tx_8.s
+   Uses
+      None
+Comment: Block_transfer_8 unused
+NEXT 00000008
+
+Symbol: NEXT
+   Definitions
+      At line 10 in file block_tx_8.s
+   Uses
+      At line 13 in file block_tx_8.s
+Comment: NEXT used once
+__main 00000000
+
+Symbol: __main
+   Definitions
+      At line 5 in file block_tx_8.s
+   Uses
+      At line 3 in file block_tx_8.s
+Comment: __main used once
+5 symbols
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+BLOCK2 00000000
+
+Symbol: BLOCK2
+   Definitions
+      At line 19 in file block_tx_8.s
+   Uses
+      At line 8 in file block_tx_8.s
+Comment: BLOCK2 used once
+DATA1 00000000
+
+Symbol: DATA1
+   Definitions
+      At line 18 in file block_tx_8.s
+   Uses
+      None
+Comment: DATA1 unused
+2 symbols
+340 symbols in table

@@ -1,0 +1,5 @@
+--cpu Cortex-M3 "system_stm32f10x.o" "startup_stm32f10x_md.o" "multiply.o" 
+--library_type=microlib --strict --scatter "asm_test.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\asm_test.map" -o asm_test.axf

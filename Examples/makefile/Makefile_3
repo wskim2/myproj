@@ -1,0 +1,17 @@
+# we have used the percent (%) character to denote that part of the target and dependency that matches whatever the pattern is used for, 
+# and the $< is a special variable (imaging it like $(<)) that means "whatever the depencies are". 
+# Another useful variable is $@, which means "the target".
+
+## TARGET : DEPENDENCY
+##		ACTION
+
+## MACRO: we use $(CC) to specify the compiler
+CC = gcc
+CFLAGS = -g -O2
+OBJECTS = main.o foo.o
+
+main.exe : $(OBJECTS)
+	$(CC) $(CFLAGS) $(OBJECTS) -o main.exe
+
+%.o : %.c
+	$(CC) $(CFLAGS) -c $<

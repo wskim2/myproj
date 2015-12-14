@@ -1,0 +1,21 @@
+*** Creating Trace Output File 'asmtest.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup_stm32f4xx.o"'
+### List of Objects: adding '"volatile_register.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M4.fp "startup_stm32f4xx.o" "volatile_register.o" 
+--strict --scatter "asmtest.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\asmtest.map" -o asmtest.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'asmtest.axf'
+### ADS-LD Command File: 'asmtest.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'asmtest.lnp', Handle=0x00001BDC
+### Writing '.lnp' file
+### ADS-LD Command file 'asmtest.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 1 errors
+### Updating obj list
+### LDADS_file() completed.
